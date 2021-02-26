@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="602.0" layoutY="-1.0">
+         <image>
+            <Image url="@ezgif-7-b81bb51dd75b.gif" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="234.0" layoutY="105.0" opacity="0.5" prefHeight="45.0" prefWidth="133.0" style="-fx-background-radius: 60px; -fx-background-color: grey; -fx-background-repeat: stretch;" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="234.0" layoutY="165.0" opacity="0.5" prefHeight="45.0" prefWidth="133.0" style="-fx-background-color: grey; -fx-background-radius: 50px;" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="234.0" layoutY="225.0" opacity="0.5" prefHeight="45.0" prefWidth="133.0" style="-fx-background-color: grey; -fx-background-radius: 50px;" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="234.0" layoutY="165.0" prefHeight="45.0" prefWidth="133.0" text="Load Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="113.0" text="New Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="233.0" text="Exit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
